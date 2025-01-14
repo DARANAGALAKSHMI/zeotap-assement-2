@@ -1,6 +1,7 @@
 ###CDP Support Agent Chatbot
 
 <img src="C:\Users\swapna\OneDrive\Pictures\Screenshots\Screenshot 2025-01-14 163913.png"/>
+
 Features
 1. Answer "How-to" Questions
 The chatbot will understand and respond to "how-to" questions about each CDP. It should be capable of:
