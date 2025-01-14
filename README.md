@@ -1,8 +1,4 @@
-###CDP Support Agent Chatbot
-
-![Chatbot Screenshot](./assets/Screenshot 2025-01-14 163913.png)
-
-
+##CDP Support Agent Chatbot
 
 Features
 1. Answer "How-to" Questions
@@ -33,22 +29,4 @@ The chatbot will be able to answer comparison questions between the four CDPs. E
 The chatbot can handle more complex, advanced questions about each CDP, including:
 Detailed guidance on advanced configurations or integrations.
 Use cases and custom workflows that go beyond basic functionality.
-Architecture
-The architecture of the chatbot will consist of the following main components:
 
-Natural Language Processing (NLP):
-
-The NLP engine will process user input, understand the intent of the question, and determine which platform and documentation section the question pertains to.
-Popular NLP frameworks like spaCy or Rasa may be used to extract relevant information from the question.
-Document Retrieval & Parsing:
-
-The chatbot will utilize a web scraping tool or an API (if available) to retrieve and parse documentation from the official sites for Segment, mParticle, Lytics, and Zeotap.
-BeautifulSoup (for web scraping) or similar tools will be used to extract text from the documentation.
-Search Algorithm:
-
-A search algorithm will match the user's question to relevant sections in the documentation.
-For advanced use cases, additional functionality such as semantic search or vector embeddings (e.g., using OpenAI Embeddings or Sentence-Transformers) may be used to improve question matching.
-Response Generation:
-
-After retrieving relevant documentation, the chatbot will generate a clear and concise response to the user's question.
-Responses will be formatted with easy-to-follow instructions, steps, and links to the original documentation when necessary.
