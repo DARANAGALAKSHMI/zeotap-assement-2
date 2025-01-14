@@ -1,6 +1,8 @@
 ###CDP Support Agent Chatbot
 
-<img src="C:\Users\swapna\OneDrive\Pictures\Screenshots\Screenshot 2025-01-14 163913.png"/>
+![Chatbot Screenshot](./assets/Screenshot 2025-01-14 163913.png)
+
+
 
 Features
 1. Answer "How-to" Questions
